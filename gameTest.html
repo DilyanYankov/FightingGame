@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<link rel="stylesheet" href="gameTest.css" type="text/css">
+<link rel="stylesheet" href="hpBar.css" type="text/css">
+
+
+</head>
+<body>
+	<div id="score1"><p id="p1">0</p></div>
+	<div id="score2"><p  id="p2">0</p></div>
+	<span id="span1">Player 1</span>
+	<span id="span2">Player 2</span>
+	<div id="background" style='height: 600px; width: 900px; position:absolute;top:5%;left:25%;background-image: url("images/backgrounds/menuBackground.gif")'>
+		<div id="container" style="width:62px; height:62px; display: none;"><p>99</p></div>
+	
+		<div id="hpBar1" style="width:250px;height:20px;border:2px solid black;display: none;">
+			<div id="hpLeft1"></div>
+			<div id="lostHP1" style="width:0px;height:20px;"></div>
+		</div>		
+		<div id="hpBar2" style="width:250px;height:20px;border:2px solid black;display: none;">
+			<div id="hpLeft2"></div>
+			<div id="lostHP2" style="width:0px;height:20px;"></div>
+		</div>		
+		<div id="nrg1" style="width:250px;height:15px;border:1px solid black;display: none;">
+			<div id="nrgLeft1"></div>
+			<div id="nrgLost1" style="width:0px;height:15px;"></div>
+		</div>		
+		<div id="nrg2" style="width:250px;height:15px;border:1px solid black;display: none;">
+			<div id="nrgLeft2"></div>
+			<div id="nrgLost2" style="width:0px;height:15px;"></div>
+		</div>
+		
+	</div>
+	
+	<div id='wrapper'>
+				
+		<canvas id="canvas1" width="900" height="600" style='border:1px solid black;position:absolute;top:5%;left:25%;'></canvas>
+		<canvas id="canvas2" width="900" height="600" style='border:1px solid black;position:absolute;top:5%;left:25%;'></canvas>
+		
+	</div> 
+	<canvas id="canvas0" width="900" height="600" style='border:1px solid black;position:absolute;top:5%;left:25%;'></canvas>
+	<div id="start"></div>		
+	<p id="bonus">+ 30 Bonus!</p>
+	
+	
+</body>
+<script src='/JS/ajaxGame.js' type='text/javascript'></script>
+<script src='JS/inheritance.js' type='text/javascript'></script>
+ <script src='JS/resources.js' type='text/javascript'></script>
+ <script src='JS/dead.js' type='text/javascript'></script>  
+ <script src='JS/bonus.js' type='text/javascript'></script>
+ <script src='JS/scores.js' type='text/javascript'></script>
+ <script src='JS/hpBar.js' type='text/javascript'></script> 
+ <script src='JS/nrgBar.js' type='text/javascript'></script> 
+<script src='JS/coordinates.js' type='text/javascript'></script>
+<script src='JS/settings.js' type='text/javascript'></script>
+<script src='JS/stage.js' type='text/javascript'></script>
+<script src='JS/gameObject.js' type='text/javascript'></script>
+<script src='JS/fighter.js' type='text/javascript'></script>
+<script src='JS/shuriken.js' type='text/javascript'></script>
+<script src='JS/dead.js' type='text/javascript'></script>
+<script src='JS/game.js' type='text/javascript'></script>
+<script src='JS/Moves.js' type='text/javascript'></script>
+<script src='JS/index.js' type='text/javascript'></script>
+
+
+
+</html>

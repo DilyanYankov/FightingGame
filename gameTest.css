@@ -1,0 +1,66 @@
+@CHARSET "UTF-8";
+
+#container{
+	position:absolute;
+	top:20px;
+	left:425px;
+	border: 2px solid red;	
+}
+#container>p{
+	color :red;
+	font-size : 30px;
+	text-align : center;	
+	line-height :2px;
+}
+
+#start{
+	position:absolute;
+	left:650px;
+	top: 300px;
+	width:500px;
+	height:250px;
+	background-image: url('images/Fight.png');	
+	background-repeat: no-repeat;
+}
+
+body{
+	background-color:rgb(47, 20, 47);
+}
+
+
+#score1, #score2{
+	width:75px;
+	height:75px;
+	border:1px solid black;
+	color :red;
+	font-size : 30px;
+	text-align : center;	
+	line-height :10px;
+	margin:30px;
+}
+
+#span1{
+	position:absolute;
+	top:50px;
+	left:150px;
+	font-size:30px;
+	color:yellow;	
+}
+
+#span2{
+	position:absolute;
+	top:150px;
+	left:150px;
+	font-size:30px;
+	color:yellow;
+}
+
+#bonus{
+	color :red;
+	font-size : 40px;
+	font-weight:bold;
+	position:absolute;
+	left:50%;
+	top:200px;
+	visibility: hidden;
+}
